@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        style="@style/splash"
+    >
+        <TextView
+            android:id="@+id/version_tv"
+            style="@style/versionAndAuthor"
+            android:text="版本1.0"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/author_tv"
+            style="@style/versionAndAuthor"
+            android:layout_below="@id/version_tv"
+            android:text="@string/author_name"/>
+    </RelativeLayout>
+</LinearLayout>
